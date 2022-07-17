@@ -183,3 +183,43 @@ header {
 	text-align: left;
 	font-size: 16px;
 }
+
+/* profile */
+
+#profile{
+	background-color: #ECEFF1;
+}
+
+.profile-group{
+	display: flex;
+	padding: 30px 0 90px 0;
+}
+
+.left-content{
+	width: 50%;
+}
+
+.right-content{
+	width: 50%;
+}
+
+.my-face{
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+	border-radius: 50%;
+	background-image: url(img/my-icon.jpg);
+}
+
+.description-title{
+	margin: 20px 0 5px 0;
+	font-size: 20px;
+}
+
+.description-title:first-child{
+	margin-top: 0;
+}
+
+.description-text{
+	font-size: 16px
+}
